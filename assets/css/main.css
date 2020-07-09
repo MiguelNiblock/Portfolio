@@ -3773,6 +3773,42 @@ input, select, textarea {
 			}
 
 		}
+	footer section .image {
+		display: inline-block;
+		margin-left: 2em;
+		margin-bottom: 2em;
+		padding: 0.65em;
+		border-radius: 100%;
+		border: solid 1px;
+		/* margin: auto; */
+	}
+
+	footer section .image img {
+			display: block;
+			border-radius: 100%;
+			width: 9em;
+			background-color: rgba(246, 255, 252, 0.795);
+			/* filter: sepia(30%); */
+		}
+	footer section.my-cont {
+		margin-top: 2em;
+		text-align: center;
+	}
+	footer div.my-col {
+		display: inline-block;
+		margin-left: 10em;
+		text-align: left;
+		margin-top: 1em;
+		vertical-align: top;
+	}
+	
+	footer dl.alt {
+		display: block;
+		/* vertical-align: top; */
+	}
+	footer ul.icons {
+		display: block;
+	}
 
 /* Wrapper */
 
