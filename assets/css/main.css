@@ -178,7 +178,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0;
 	}
 
 		p.content {
@@ -2372,7 +2372,7 @@ input, select, textarea {
 		.image img {
 			border-radius: 8px;
 			display: block;
-			filter: sepia(20%);
+			/* filter: sepia(20%); */
 		}
 
 		.image.left, .image.right {
@@ -3011,7 +3011,7 @@ input, select, textarea {
 				border-radius: 100%;
 				width: 11em;
 				background-color: rgba(246, 255, 252, 0.795);
-				filter: sepia(30%);
+				/* filter: sepia(30%); */
 			}
 
 		@media screen and (max-width: 980px) {
