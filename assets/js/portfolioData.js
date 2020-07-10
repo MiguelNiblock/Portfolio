@@ -1,5 +1,5 @@
 const PORTFOLIO = {
-	"Web Development" : [
+	"Web App Development" : [
         {title: "COVID19 Preparedness Quiz", 
         descr: "Single-page client-side app built on Javascript, HTML and CSS that implements a multiple-choice quiz meant to test your COVID preparedness, and give you answers to important issues on the subject.",
         thumbnail: "https://raw.githubusercontent.com/MiguelNiblock/COVID19_quiz/master/covid19quiz_screenshot.png"},
@@ -7,7 +7,9 @@ const PORTFOLIO = {
         {title: "Professional Portfolio Site", 
         descr: "An appealing site which auto-generates its HTML content with JQuery selectors from a JS object. Refers to the current site. ",
         thumbnail: "images/portfoliosite_screenshot.png"},
-
+    ],
+    "API Development" : [],
+    "Web Design" : [
         {title: "Greg's List- Results Page", 
         descr: "Templateless HTML/CSS design which resembles the CraigsList look. Inclues a header with navbar, search area, pagination buttons/section, and results shown as rows.",
         thumbnail: "images/gregslist_screenshot.png"},
