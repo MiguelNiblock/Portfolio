@@ -2374,7 +2374,7 @@ input, select, textarea {
 		.image img {
 			border-radius: 8px;
 			display: block;
-			width: 12em;
+			height: 5em;
 			/* filter: sepia(20%); */
 		}
 
