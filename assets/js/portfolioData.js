@@ -52,5 +52,11 @@ const PORTFOLIO = {
         descr: "(Luminol Time Series Detector) This Python library implements general-purpose algorithms for anomaly detection from the open source Luminol project, and provides an API better suitable for seasonal day-series data, as well direct compatibility with Pandas' dataframes.",
         thumbnail: "images/luminoltsdetector_screenshot.png",
         codeurl: "#"},
+    ],
+    "Data Analysis": [
+        {title: "COVID19 Impact on Casino Play", 
+        descr: "By visualizing the changes in the volume of adjacent concurrent plays before-and-after COVID19, we can understand the impact of social distancing on business operations. More than just an analysis, this project implements proprietary techniques to process raw casino data to identify adjacent play.",
+        thumbnail: "images/covidanalysis_screenshot.png",
+        codeurl: "#"},
     ]
 };
