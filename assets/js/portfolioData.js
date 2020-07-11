@@ -11,6 +11,11 @@ const PORTFOLIO = {
         codeurl: "https://github.com/MiguelNiblock/miguelniblock.github.io"},
     ],
     "API Development" : [
+        {title: "Analytics Modules as Backend Microservices", 
+        descr: "A FlaskAPI microservice that provides endpoints for various Python modules used by Gaming Analytics' backend operations.",
+        thumbnail: "images/covarianceranks_screenshot.png",
+        codeurl: "#"},
+
         {title: "Blog API- Node.JS", 
         descr: "CRUD API for blogging platform. Built from scratch with `npm` and Express. Handles GET and POST requests to `/blog-posts`. DELETE and PUT requests go to `/blog-posts/:id`. ",
         thumbnail: "images/blogapi_screenshot.png",
@@ -38,9 +43,14 @@ const PORTFOLIO = {
         codeurl: "https://github.com/MiguelNiblock/WebDev/tree/master/CSS-Layouts/Project-Space-Cat-Dog"}	
     ],
 	"Data Science" : [
-		{title: "DaySeriesEnsemble- Python Forecasting Library", 
+		{title: "DaySeriesEnsemble- Python Forecasting Module", 
         descr: "DSEnsemble can take day-series data and make forecasts that out-performed Facebook's Prophet algorithm in our tests at Gaming Analytics, Inc. It implements an ensemble of intelligently-randomized Holt Winter models, merges their results with Exponentially-Weighted-Moving-Averages, and passes them to Prophet as an additional_regressor.",
         thumbnail: "images/dsensemble_screenshot.png",
-        codeurl: "#"}
+        codeurl: "#"},
+
+        {title: "LuminolTSDetector- Anomaly Detection Module", 
+        descr: "(Luminol Time Series Detector) This Python library implements general-purpose algorithms for anomaly detection from the open source Luminol project, and provides an API better suitable for seasonal day-series data, as well direct compatibility with Pandas' dataframes.",
+        thumbnail: "images/luminoltsdetector_screenshot.png",
+        codeurl: "#"},
     ]
 };
