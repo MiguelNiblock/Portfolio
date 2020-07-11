@@ -15,6 +15,11 @@ const PORTFOLIO = {
         descr: "CRUD API for blogging platform. Built from scratch with `npm` and Express. Handles GET and POST requests to `/blog-posts`. DELETE and PUT requests go to `/blog-posts/:id`. ",
         thumbnail: "images/blogapi_screenshot.png",
         codeurl: "https://github.com/MiguelNiblock/ServerDev/tree/master/CRUD/blog_app"},
+
+        {title: "To-Do app- Ruby on Rails", 
+        descr: "MVC (Model View Controller) app deployed on Heroku, that uses a postgreSQL database for storing todos. To-dos are persistent, so you may visit the live page and add/edit/delete some if you wish!.",
+        thumbnail: "images/todoruby_screenshot.png",
+        codeurl: "https://github.com/MiguelNiblock/ruby_todo_app"},
     ],
     "Web Design" : [
         {title: "Greg's List- Results Page", 
@@ -33,6 +38,9 @@ const PORTFOLIO = {
         codeurl: "https://github.com/MiguelNiblock/WebDev/tree/master/CSS-Layouts/Project-Space-Cat-Dog"}	
     ],
 	"Data Science" : [
-		
+		{title: "DaySeriesEnsemble- Python Forecasting Library", 
+        descr: "DSEnsemble can take day-series data and make forecasts that out-performed Facebook's Prophet algorithm in our tests at Gaming Analytics, Inc. It implements an ensemble of intelligently-randomized Holt Winter models, merges their results with Exponentially-Weighted-Moving-Averages, and passes them to Prophet as an additional_regressor.",
+        thumbnail: "images/dsensemble_screenshot.png",
+        codeurl: "#"}
     ]
 };
