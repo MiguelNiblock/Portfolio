@@ -2539,6 +2539,10 @@ input, select, textarea {
 		color: #ffffff;
 	}
 
+	section.career-subsection > ul > li {
+		list-style-type: none;
+	}
+
 /* Actions */
 
 	ul.actions {
