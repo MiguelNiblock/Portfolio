@@ -2374,8 +2374,7 @@ input, select, textarea {
 		display: block;
 		position: relative;
 	}
-
-		.features .image img {
+		.features li .image img {
 			box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 			/* border-radius: 8px; */
 			object-fit: cover;
@@ -2394,7 +2393,6 @@ input, select, textarea {
 			position: absolute;
 			opacity: 0;		
 		}
-
 		.features li .image div a{	
 			outline: 0;		
 			background-color: #40c9c2;
@@ -2405,21 +2403,21 @@ input, select, textarea {
 			cursor: pointer;
 			font-weight: 400;
 		}
-		.features .image:hover img {
+		.features li .image:hover img {
 			/* filter: blur(2px); */
 			filter: brightness(60%);
 			scale: 1.03;
 			transition-duration: 900ms;
 			cursor: pointer;
 		}
-		.features li .image div a:active {
-			filter: brightness(100%);
-		}
-		.image div a:hover {
+		.features li .image div a:hover {
 			filter: brightness(85%);
 			transition-duration: 300ms;
 		}
-		.features .image:hover div {
+		.features li .image div a:active {
+			filter: brightness(100%);
+		}
+		.features li .image:hover div {
 			opacity: 1;
 			transition-duration: 700ms;
 		}

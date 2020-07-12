@@ -57,6 +57,11 @@ const PORTFOLIO = {
         descr: "Machine learning model with advanced NLP techniques to predict the Deal Probability of online classified ads.",
         thumbnail: "https://raw.githubusercontent.com/MiguelNiblock/Deep-NLP_Predicting-Ad-Demand/master/reports/Presentation/slides_png/img10.png",
         codeurl: "https://github.com/MiguelNiblock/Deep-NLP_Predicting-Ad-Demand"},
+
+        {title: "Supervised Learning- Credit Card Fraud", 
+        descr: "Machine learning model that classifies fraudulent transactions in a dataset with class imbalance.",
+        thumbnail: "images/creditfraud_screenshot.png",
+        codeurl: "https://github.com/MiguelNiblock/Supervised-Learning_Credit-Card-Fraud"},
     ],
     "Data Analysis": [
         {title: "COVID19 Impact on Casino Play", 
