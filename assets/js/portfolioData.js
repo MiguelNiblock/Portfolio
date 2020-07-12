@@ -62,12 +62,27 @@ const PORTFOLIO = {
         descr: "Machine learning model that classifies fraudulent transactions in a dataset with class imbalance.",
         thumbnail: "images/creditfraud_screenshot.png",
         codeurl: "https://github.com/MiguelNiblock/Supervised-Learning_Credit-Card-Fraud"},
+
+        {title: "Natural Language Processing- Predict the Author", 
+        descr: "This procedure compares various common techniques used in NLP such as Latent Semantic Analysis, Bag of Words, TFIDF... to predict the author for a given article, based on statistical similarities found in text data.",
+        thumbnail: "images/predictauthor_screenshot.png",
+        codeurl: "https://github.com/MiguelNiblock/Natural-Language-Processing_Predict-the-Author"},
     ],
     "Data Analysis": [
         {title: "COVID19 Impact on Casino Play", 
         descr: "By visualizing the changes in the volume of adjacent concurrent plays before-and-after COVID19, we can understand the impact of social distancing on business operations. More than just an analysis, this project implements proprietary techniques to process raw casino data to identify adjacent play.",
         thumbnail: "images/covidanalysis_screenshot.png",
         codeurl: "#"},
+
+        {title: "Research Proposal- Mental Health in Tech", 
+        descr: "Laying out an experimentation plan to find out if certain working conditions can reduce the loss in productivity caused by mental health issues.",
+        thumbnail: "images/mentalhealthtech_screenshot.png",
+        codeurl: "https://github.com/MiguelNiblock/Research-Proposal_Mental-Health-in-Tech"},
+
+        {title: "Analytic Report- Youtube Trending Videos", 
+        descr: "Exploration of Youtube data, accompanied by several analytical questions answered.",
+        thumbnail: "images/youtubereport_screenshot.png",
+        codeurl: "https://github.com/MiguelNiblock/Analytic-Report_Youtube-Trending-Videos/blob/master/IPYNB.Analytic-Report_Youtube-Trending-Videos.ipynb"},
     ],
     "General": [
         {title: "Auto .Gitignore", 
