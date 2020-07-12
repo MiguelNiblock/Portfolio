@@ -91,3 +91,51 @@ const PORTFOLIO = {
         codeurl: "https://github.com/MiguelNiblock/AutoGitignore"},
     ]
 };
+
+const CAREER = {
+    "Experience" : [
+        {title: "Graduate Student- MS Computer Science/ Software Engineering",
+        company_name: "Colorado Technical University",
+        contract: "Full-Time",
+        dates: "Mar 2020 - Present",
+        description: "Description",
+        logo_url: "ctu_logo.png"},
+
+        {title: "Graduate Student- MS Computer Science/ Software Engineering",
+        company_name: "Colorado Technical University",
+        contract: "Full-Time",
+        dates: "Mar 2020 - Present",
+        description: "Description",
+        logo_url: "ctu_logo.png"},
+
+        {title: "Graduate Student- MS Computer Science/ Software Engineering",
+        company_name: "Colorado Technical University",
+        contract: "Full-Time",
+        dates: "Mar 2020 - Present",
+        description: "Description",
+        logo_url: "ctu_logo.png"},
+    ],
+
+    "Education" : [
+        {title: "Graduate Student- MS Computer Science/ Software Engineering",
+        company_name: "Colorado Technical University",
+        contract: "Full-Time",
+        dates: "Mar 2020 - Present",
+        description: "Description",
+        logo_url: "ctu_logo.png"},
+
+        {title: "Graduate Student- MS Computer Science/ Software Engineering",
+        company_name: "Colorado Technical University",
+        contract: "Full-Time",
+        dates: "Mar 2020 - Present",
+        description: "Description",
+        logo_url: "ctu_logo.png"},
+
+        {title: "Graduate Student- MS Computer Science/ Software Engineering",
+        company_name: "Colorado Technical University",
+        contract: "Full-Time",
+        dates: "Mar 2020 - Present",
+        description: "Description",
+        logo_url: "ctu_logo.png"},
+    ]
+}

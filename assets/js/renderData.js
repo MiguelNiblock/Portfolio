@@ -44,5 +44,16 @@ function renderPortfolio(){
     console.log(portfolioItemsString);
     $('#portfolio').html(portfolioItemsString);
 };
+//////////////////////////////////////////
+function renderCareer(){
+    console.log('renderCareer ran')
+}
 
-$(renderPortfolio);
+///////////////////////////////////////////
+
+function renderData(){
+    renderPortfolio();
+    renderCareer();
+}
+
+$(renderData);
