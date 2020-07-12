@@ -9,7 +9,10 @@ function generatePortfolioString(dataObject){
         const projects = topic[1].map((project,index)=>{
         return `
         <li>
-            <span class="image"><img src="${project["thumbnail"]}"></span>
+            <span class="image">
+                <div><a href="${project["codeurl"]}">Learn More</a></div>
+                <img src="${project["thumbnail"]}">
+            </span>
             <h4>${project["title"]}</h4>
             <p>${project["descr"]}</p>
         </li>
