@@ -2452,15 +2452,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		.image.main {
-			display: block;
-			margin: 0 0 3em 0;
-			width: 100%;
-		}
 
-			.image.main img {
-				width: 100%;
-			}
 
 /* List */
 
@@ -3654,8 +3646,11 @@ input, select, textarea {
 			}
 
 			#main > .main > .image.main:first-child {
-				margin: -5em 0 5em -5em;
-				width: calc(100% + 10em);
+				/* margin: -5em 0 5em -5em; */
+				/* width: calc(100% + 10em); */
+				overflow: hidden;
+				height: 300px;
+				transform: rotate(180deg);
 				border-top-right-radius: 0.25em;
 				border-top-left-radius: 0.25em;
 				border-bottom-right-radius: 0;
@@ -3669,6 +3664,25 @@ input, select, textarea {
 					border-bottom-left-radius: 0;
 				}
 
+				.image.main {
+					display: block;
+					/* margin: 0 0 3em 0; */
+					width: 100%;
+					/* height: 200px; */
+				}
+		
+					.image.main img {
+						/* text-align: center; */
+						width: 100%;
+						transform: rotate(180deg);
+						/* width: 100%; */
+						/* max-height: 200px; */
+						/* height: 100%; */
+						/* margin-left:auto; */
+						/* margin-right:auto; */
+						display: inherit;
+					}
+
 		@media screen and (max-width: 1280px) {
 
 			#main > .main {
@@ -3676,8 +3690,8 @@ input, select, textarea {
 			}
 
 				#main > .main > .image.main:first-child {
-					margin: -4em 0 4em -4em;
-					width: calc(100% + 8em);
+					/* margin: -4em 0 4em -4em; */
+					/* width: calc(100% + 8em); */
 				}
 
 		}
@@ -3689,8 +3703,8 @@ input, select, textarea {
 			}
 
 				#main > .main > .image.main:first-child {
-					margin: -4em 0 4em -3em;
-					width: calc(100% + 6em);
+					/* margin: -4em 0 4em -3em;
+					width: calc(100% + 6em); */
 				}
 
 		}
@@ -3702,8 +3716,8 @@ input, select, textarea {
 			}
 
 				#main > .main > .image.main:first-child {
-					margin: -3em 0 2em -2em;
-					width: calc(100% + 4em);
+					/* margin: -3em 0 2em -2em;
+					width: calc(100% + 4em); */
 				}
 
 		}
@@ -3838,6 +3852,7 @@ input, select, textarea {
 			display: block;
 			border-radius: 100%;
 			width: 9em;
+			/* height: 9em; */
 			background-color: rgba(246, 255, 252, 0.795);
 			/* filter: sepia(30%); */
 		}
