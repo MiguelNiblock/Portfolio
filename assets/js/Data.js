@@ -11,7 +11,7 @@ const PORTFOLIO = {
         codeurl: "https://github.com/MiguelNiblock/miguelniblock.github.io"},
     ],
     "API Development" : [
-        {title: "Explanatory Ranks- Backend Microservices", 
+        {title: "Backend Microservices for Analytics Modules", 
         descr: "A FlaskAPI microservice that provides endpoints for various Python modules used by Gaming Analytics' backend operations.",
         thumbnail: "images/covarianceranks_screenshot.png",
         codeurl: "#"},
