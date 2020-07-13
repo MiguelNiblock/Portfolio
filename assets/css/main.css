@@ -3698,7 +3698,7 @@ input, select, textarea {
 		@media screen and (max-width: 736px) {
 
 			#main > .main {
-				padding: 3em 2em 1em 2em;
+				/* padding: 3em 2em 1em 2em; */
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3896,6 +3896,10 @@ input, select, textarea {
 		/* height: 100%; */
 		padding: 20px;
 		margin-bottom: 20px;
+	}
+
+	.content > ul {
+		padding: 0;
 	}
 
 	.role-description {
