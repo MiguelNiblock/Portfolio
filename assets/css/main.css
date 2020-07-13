@@ -2539,10 +2539,6 @@ input, select, textarea {
 		color: #ffffff;
 	}
 
-	section.career-subsection > ul > li {
-		list-style-type: none;
-	}
-
 /* Actions */
 
 	ul.actions {
@@ -3887,3 +3883,48 @@ input, select, textarea {
 			}
 
 		}
+
+/* Career Roles */
+
+	.content > ul > li {
+		list-style-type: none;
+		background-color: rgba(75, 73, 73, 0.26);
+		box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.2);
+		/* float: left; */
+		/* padding-left: 4em; */
+		/* height: 100%; */
+		padding: 20px;
+		margin-bottom: 20px;
+	}
+
+	.role-description {
+		background-color: rgba(30, 39, 28, 0.199);
+		/* border-radius: 10px; */
+		box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.2);
+		padding: 20px;
+	}
+
+	.company-logo {
+		float: left;
+		
+	}
+	.company-logo img{
+		height: 100px;
+		border-radius: 10px;
+	}
+	.contract-type:before {
+		content: " | "
+	}
+
+	#career ul li p {
+		/* margin-left: 3em; */
+		text-align: left;
+	}
+
+	.summary-info, .role-description {
+		/* margin-left: 2.2em; */
+	}
+	.summary-info {
+		margin-bottom: 20px;
+	}
+	

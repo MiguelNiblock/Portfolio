@@ -98,44 +98,83 @@ const CAREER = {
         company_name: "Colorado Technical University",
         contract: "Full-Time",
         dates: "Mar 2020 - Present",
-        description: "Description",
-        logo_url: "ctu_logo.png"},
+        description: `
+            • 4.0 GPA (first quarter)<br>
+            • Operating Systems, Networks, Algorithms, Databases.
+            `,
+        logourl: "images/ctu_logo.png"},
 
-        {title: "Graduate Student- MS Computer Science/ Software Engineering",
-        company_name: "Colorado Technical University",
+        {title: "Data Scientist Intern",
+        company_name: "Gaming Analytics, Inc",
         contract: "Full-Time",
-        dates: "Mar 2020 - Present",
-        description: "Description",
-        logo_url: "ctu_logo.png"},
+        dates: "Aug 2019 - Mar 2020",
+        description: `
+            • Developed a Forecasting Ensemble module. Significantly improved forecasting accuracy VS previous model in production.<br>
+            &emsp; ◦ The ensemble utilizes Holt Winters & Prophet algorithms.<br>
+            • Developed an Anomaly detection module for casino analytics platform.<br>
+            • Developed a backend API for various machine learning modules.<br>
+            • Developed modules for multivariate covariance analysis of casino metrics:<br>
+            &emsp; ◦ Automatically determines the root cause of anomalies found in time-series data from casino machine logs.<br>
+            `,
+        logourl: "images/ga_logo.jpeg"},
 
-        {title: "Graduate Student- MS Computer Science/ Software Engineering",
-        company_name: "Colorado Technical University",
+        {title: "Fellow Data Scientist",
+        company_name: "Thinkful",
         contract: "Full-Time",
-        dates: "Mar 2020 - Present",
-        description: "Description",
-        logo_url: "ctu_logo.png"},
+        dates: "Dec 2018 - May 2019",
+        description: `
+        • Developed Machine Learning models under the mentorship of an industry professional.<br>
+        • Produced Jupyter Notebooks of high quality Python code.<br>
+        • Presented project and outcomes to a live audience in a product-focused manner, effectively conveying highly-technical information in plain language.<br>
+        • Wrote complex SQL queries, involving new 'Window' functions.<br>
+        • Set up a PostreSQL database in Linux.<br>
+        • Skillfully manipulated large and noisy datasets in preparation for modeling.<br>
+            `,
+        logourl: "images/thinkful_logo.png"},
+
+        {title: "Accounting Data Analyst",
+        company_name: "Viacom",
+        contract: "Full-Time",
+        dates: "Dec 2017 - June 2018",
+        description: `
+        • Designed and deployed a Digital Time Card automated system; this eliminated manual errors and decreased turnaround times by 300% in payroll processing.<br>
+        • Integrated the reporting of daily labor costs (“Hot Sheets”) into above-mentioned system, reducing Hot Sheets processing time by 50% and achieving data consistency across reports.<br>
+        • Maintained construction budgeting system by routinely updating labor rates for all necessary labor unions, successfully preventing errors when scaling labor sources.<br>
+        • Played key role in managing the department’s relationship with key figures inside the company, succeeding in extending the team’s contract.<br>
+            `,
+        logourl: "images/viacom_logo.png"},
+
+        {title: "Production Assistant",
+        company_name: "The Weinstein Company",
+        contract: "Full-Time",
+        dates: "Aug 2017 - Dec 2017",
+        description: `
+        • Digitization and Management of departmental records: Check Requests, Petty Cash/PCard Envelopes, Purchase Orders, Asset List. <br>
+        • Vendor sourcing and relations.<br>
+        • Managing equipment rentals. <br>
+            `,
+        logourl: "images/weinstein_logo.png"},
     ],
 
     "Education" : [
-        {title: "Graduate Student- MS Computer Science/ Software Engineering",
-        company_name: "Colorado Technical University",
+        {title: "Master Degree in Computer Science- In Progress",
+        company_name: "Colorado Tech University",
         contract: "Full-Time",
         dates: "Mar 2020 - Present",
-        description: "Description",
-        logo_url: "ctu_logo.png"},
+        description: `
+            • 4.0 GPA (First quarter)<br>
+            • Operating Systems, Networks, Algorithms, Databases.
+            `,
+        logourl: "images/ctu_logo.png"},
 
-        {title: "Graduate Student- MS Computer Science/ Software Engineering",
-        company_name: "Colorado Technical University",
+        {title: "Bachelor Degree in Electronic Media Management",
+        company_name: "California State University Northridge",
         contract: "Full-Time",
-        dates: "Mar 2020 - Present",
-        description: "Description",
-        logo_url: "ctu_logo.png"},
-
-        {title: "Graduate Student- MS Computer Science/ Software Engineering",
-        company_name: "Colorado Technical University",
-        contract: "Full-Time",
-        dates: "Mar 2020 - Present",
-        description: "Description",
-        logo_url: "ctu_logo.png"},
+        dates: "Aug 2012 - May 2017",
+        description: `
+            • Studies in audience analysis, media regulations, marketing, and business law. <br>
+            • Various computer science undergrad courses.
+            `,
+        logourl: "images/csun_logo.png"},
     ]
 }
