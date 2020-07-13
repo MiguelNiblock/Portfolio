@@ -2731,7 +2731,7 @@ input, select, textarea {
 		}
 
 			header.major h2 {
-				font-size: 1.5em;
+				/* font-size: 1.5em; */
 			}
 
 			header.major p {
@@ -3831,6 +3831,7 @@ input, select, textarea {
 		border-radius: 100%;
 		border: solid 1px;
 		/* margin: auto; */
+		margin-right: 5em;
 	}
 
 	footer section .image img {
@@ -3846,7 +3847,7 @@ input, select, textarea {
 	}
 	footer div.my-col {
 		display: inline-block;
-		margin-left: 10em;
+		/* margin-left: 10em; */
 		text-align: left;
 		margin-top: 1em;
 		vertical-align: top;
