@@ -178,9 +178,14 @@ input, select, textarea {
 		font-style: italic;
 	}
 
-	p {
+	#portfolio p, #career p {
 		font-size: 85%;
 		margin: 0;
+	}
+	#content p {
+		text-indent: 4em;
+		padding: 0 2em;
+		margin-bottom: 1em;
 	}
 
 		p.content {
