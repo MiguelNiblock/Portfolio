@@ -3851,7 +3851,7 @@ input, select, textarea {
 	footer section .image img {
 			display: block;
 			border-radius: 100%;
-			width: 9em;
+			width: 7em;
 			/* height: 9em; */
 			background-color: rgba(246, 255, 252, 0.795);
 			/* filter: sepia(30%); */
