@@ -46,12 +46,12 @@ const PORTFOLIO = {
 		{title: "Day Series Ensemble- Python Forecasting Module", 
         descr: "DSEnsemble can take day-series data and make forecasts that out-performed Facebook's Prophet algorithm in our tests at Gaming Analytics, Inc. It implements an ensemble of intelligently-randomized Holt Winter models, merges their results with Exponentially-Weighted-Moving-Averages, and passes them to Prophet as an additional_regressor.",
         thumbnail: "images/dsensemble_screenshot.png",
-        codeurl: "#"},
+        codeurl: "projects/under_construction.html"},
 
         {title: "Luminol TS Detector- Anomaly Detection Module", 
         descr: "(Luminol Time Series Detector) This Python library implements general-purpose algorithms for anomaly detection from the open source Luminol project, and provides an API better suitable for seasonal day-series data, as well direct compatibility with Pandas' dataframes.",
         thumbnail: "images/luminoltsdetector_screenshot.png",
-        codeurl: "#"},
+        codeurl: "projects/under_construction.html"},
 
         {title: "Deep NLP- Predicting Ad Demand", 
         descr: "Machine learning model with advanced NLP techniques to predict the Deal Probability of online classified ads.",
@@ -72,7 +72,7 @@ const PORTFOLIO = {
         {title: "COVID19 Impact on Casino Play", 
         descr: "By visualizing the changes in the volume of adjacent concurrent plays before-and-after COVID19, we can understand the impact of social distancing on business operations. More than just an analysis, this project implements proprietary techniques to process raw casino data to identify adjacent play.",
         thumbnail: "images/covidanalysis_screenshot.png",
-        codeurl: "#"},
+        codeurl: "projects/under_construction.html"},
 
         {title: "Research Proposal- Mental Health in Tech", 
         descr: "Laying out an experimentation plan to find out if certain working conditions can reduce the loss in productivity caused by mental health issues.",
