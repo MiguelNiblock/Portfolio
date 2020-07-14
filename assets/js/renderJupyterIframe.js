@@ -1,6 +1,6 @@
 function styleJupyterIframe(){
 
-    const obj = $.get('custom.css',
+    $.get('../assets/css/jupyterStyles.css',
     function(data){
 
         const element = '<!--Added from JS-->'+
