@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Stellar by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 <head>
 	<title>FlaskAPI Backend Microservices for Analytics Modules</title>
@@ -42,10 +37,10 @@
 			</iframe>
 			<p>In this demo, we are sending a GET request to endpoint <code>'http://localhost:5000/singlerankmetrics'</code>. And along with it, we are sending a data object in JSON-form which contains the parameters of our request. These parameters are basically what we are asking the module to answer for us.</p>
 			<ul>
-				<li><code>'path'</code> is the URL to a file which contains a Pandas Dataframe, which contains the data the module will work with. The specific data format depends on the module in question. But for the three modules, it was usually a small Dataframe that includes only the minimum data necessary for the module to operate.</li>
+				<li><code>'path'</code> is the URL to a file which contains a Pandas Dataframe, which contains the data the module will work with. The specific data format depends on the module in question. But for the three modules, it was usually a small Dataframe that includes only the minimum data necessary for the module to operate. The output of cell #3 shows a preview of the data to be handed to the module, in this case, the object 'assetdata'.</li>
 				<li>In this particular case, the <code>SingleRankMetrics</code> module is meant to indicate which were the top contributing metrics to an asset's change in revenue(referred to as 'coinIn'). Other related modules answered similar, but technically different questions such as: <code>GroupRankMetrics</code>: <i>Which metrics contributed to change in a given<code>metric_col</code>, among a group of assets?(Assets are casino machines which are often grouped in banks, or casino zones)</i>, and <code>GroupRankDimensions</code>: <i>Which assets contributed most to the change in a given <code>metric_col</code>, among a group of assets?</i></li>
 				<li><code>metric_col</code>: Refers to the metric whose change we want to explain. Revenue, expressed as 'coinIn' is the most common use of these modules, since the other metrics are thought to be contributors to revenue, and we are assuming a causal relationship. But it's technically possible to frame the question in reverse.</li>
-				<li><code>date_target</code>: Refers to the date whose change we want to explain. We are using data aggregated at the daily level because hourly variations are of a different nature, and the seasonal patterns that apply to day series are different than those that govern hourly variation. The modules that handle this request generally identify the 'day-of-week' of the day series provided and compare the value/s in the <code>date_target</code> with the value/s in the previous date with the same 'day-of-week'. You don't compare a Friday to a Monday, and so on.</li>
+				<li><code>date_target</code>: Refers to the date whose change we want to explain. In the demo, it's July 17, 2019. We are using data aggregated at the daily level because hourly variations are of a different nature, and the seasonal patterns that apply to day series are different than those that govern hourly variation. The modules that handle this request generally identify the 'day-of-week' of the day series provided and compare the value/s in the <code>date_target</code> with the value/s in the previous date with the same 'day-of-week'. You don't compare a Friday to a Monday, and so on.</li>
 				<li>Finally, <code>metric_col</code> and<code>date_col</code> just refer to the column name in the Dataframe which contain the request data. This is necessary to correctly parse the input data. <code>metric_col</code> in this case would refer to 'coinIn'.</li>
 				<li><code>method</code> has nothing to do with HTTP methods. In these modules, we wanted to find out which metrics/dimensions contributed most to a given change in either positive or negative impact to revenue. So when we pass the value <code>bestranks</code> to this method parameter, we are saying that the results should be sorted from greates to least contribution to revenue. The modules used covariances to make this determination. If the change in <code>metric_col</code> was positive, then the metrics/dimensions with positive covariance are the 'best', and viceversa.</li>
 			</ul>
@@ -77,7 +72,7 @@
 				</ul>
 			</div>
 		</section>
-		<p class="copyright">&copy; Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+		
 	</footer>
 
 </div>
