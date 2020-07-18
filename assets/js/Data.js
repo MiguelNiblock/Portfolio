@@ -14,7 +14,7 @@ const PORTFOLIO = {
         {title: "Backend Microservices for Analytics Modules", 
         descr: "A FlaskAPI HTTP service that provides endpoints for various Python modules used by Gaming Analytics' backend operations.",
         thumbnail: "images/covarianceranks_screenshot.png",
-        codeurl: "projects/flaskapi.html"},
+        codeurl: "projects/?id=flaskapi"},
 
         {title: "Blog API- Node.JS", 
         descr: "CRUD API for blogging platform. Built from scratch with `npm` and Express. Handles GET and POST requests to `/blog-posts`. DELETE and PUT requests go to `/blog-posts/:id`. ",

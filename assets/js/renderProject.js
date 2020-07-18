@@ -65,7 +65,7 @@ function renderProject(){
         var quoteparRe = /<blockquote>[\s]*<p>.*<\/p>[\s]*<\/blockquote>/g
         html = html.replaceAll(quoteparRe,removePar)
 
-        console.log(html);
+        // console.log(html);
         $('section#content').html(html);
     },'text')
     
