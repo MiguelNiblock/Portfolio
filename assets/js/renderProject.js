@@ -59,13 +59,13 @@ function renderProject(){
         // remove <p>'s surrounding <span>'s
         var parspanRe = /<p><span.*<\/p>/g
         var removePar = function(string){return string.replace('<p>','').replace('</p>','')}
-        html = html.replace(parspanRe,removePar)
+        html = html.replaceAll(parspanRe,removePar)
 
-        // remove <p>'s surrounding <blockquotes>
-        var quoteparRe = /<blockquote>[\s\S]*<p>[\s\S]*<\/blockquote>/g
-        html = html.replace(quoteparRe,removePar)
+        // remove <p>'s inside <blockquotes>
+        var quoteparRe = /<blockquote>[\s]*<p>.*<\/p>[\s]*<\/blockquote>/g
+        html = html.replaceAll(quoteparRe,removePar)
 
-        // console.log(html);
+        console.log(html);
         $('section#content').html(html);
     },'text')
     

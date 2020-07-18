@@ -22,11 +22,17 @@ Three related submodules were served by the Flask API in total. Although this ar
 <iframe class="jupyter" src="Request_SingleRankMetrics.html" width="100%" height="400" style="border:1px solid black;">
             </iframe>
 
+### Breakdown
 
+In this demo, we are sending a GET request to endpoint `http://localhost:5000/singlerankmetrics`. And along with it, we are sending a data object in JSON-form which contains the parameters of our request. These parameters are basically what we are asking the module to answer for us. In the very last cell we see the module's output which got sent as a response. For this particular module, (SingleRankMetrics) the output is a table that sorts the variables by their degree of contribution to the change in "coinIn", giving us a root cause explanation analysis. 
 
-In this demo, we are sending a GET request to endpoint `http://localhost:5000/singlerankmetrics`. And along with it, we are sending a data object in JSON-form which contains the parameters of our request. These parameters are basically what we are asking the module to answer for us.
+You might be wondering, how can this module determine which metrics contributed to the change in revenue? The variables in the top, (such as "averageBetUncarded" and "coinInUncarded") are said to be the greatest contributors to the change in "coinIn" because their change in value had the greatest difference in its normalized covariance, with respect to the change of value for "coinIn". That was the mathematical principle of my solution to this problem.
 
+### About the API
 
+One of the crucial things about building an API is to make it usable. (Aside from ensuring it works!) In order to do that, parameters and values are named in ways that best represent their role and function. Here is a detailed description of my API interface for these modules:
+
+> You may wanna look at input cell #9 from the notebook, as these are the parameters sent with the request.
 
 - `path` is the URL to a file which contains a Pandas Dataframe, which contains the data the module will work with. The specific data format depends on the module in question. But for the three modules, it was usually a small Dataframe that includes only the minimum data necessary for the module to operate. The output of cell #3 shows a preview of the data to be handed to the module, in this case, the object 'assetdata'.
 - In this particular case, the `SingleRankMetrics` module is meant to indicate which were the top contributing metrics to an asset's change in revenue(referred to as 'coinIn'). Other related modules answered similar, but technically different questions such as: `GroupRankMetrics`: *Which metrics contributed to change in a given `metric_col`, among a group of assets?(Assets are casino machines which are often grouped in banks, or casino zones)*, and `GroupRankDimensions`: *Which assets contributed most to the change in a given `metric_col`, among a group of assets?*
