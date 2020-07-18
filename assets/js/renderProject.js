@@ -14,9 +14,13 @@ function renderProject(){
     // },
     // 'script')
 
+    $.ajaxSetup({
+        async: false
+      });
+
     $.get(`${projectId}.md`,function(data){
         // data is the raw markdown text
-        console.log(data);
+        // console.log(data);
 
         // separate md into content and head
         contentRe = /#\s/g;
@@ -61,9 +65,10 @@ function renderProject(){
         var quoteparRe = /<blockquote>[\s\S]*<p>[\s\S]*<\/blockquote>/g
         html = html.replace(quoteparRe,removePar)
 
-        console.log(html);
+        // console.log(html);
         $('section#content').html(html);
     },'text')
+    
 };
 
 $(renderProject());
