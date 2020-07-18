@@ -2478,6 +2478,10 @@ input, select, textarea {
 		/* padding-left: 1em; */
 	}
 
+	#content.main ul {
+		padding-left: 1em;
+	}
+
 		ul li {
 			padding-left: 0.5em;
 		}
@@ -3679,7 +3683,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			#main > .main {
-				/* padding: 0; */
+				padding: 2em;
 			}
 
 				#main > .main > .image.main:first-child {
@@ -3945,6 +3949,10 @@ input, select, textarea {
 	}
 	
 /* Code */
+
+iframe {
+	margin-bottom: 1em;
+}
 
 iframe.jupyter {
 	box-shadow: 0px 0px 20px 8px rgba(34, 47, 61, 0.83);
