@@ -46,7 +46,7 @@ const PORTFOLIO = {
 		{title: "Day Series Ensemble- Python Forecasting Module", 
         descr: "DSEnsemble can take day-series data and make forecasts that out-performed Facebook's Prophet algorithm in our tests at Gaming Analytics, Inc. It implements an ensemble of intelligently-randomized Holt Winter models, merges their results with Exponentially-Weighted-Moving-Averages, and passes them to Prophet as an additional_regressor.",
         thumbnail: "images/dsensemble_screenshot.png",
-        codeurl: "projects/under_construction.html"},
+        codeurl: "projects/?id=dsensemble"},
 
         {title: "Luminol TS Detector- Anomaly Detection Module", 
         descr: "(Luminol Time Series Detector) This Python library implements general-purpose algorithms for anomaly detection from the open source Luminol project, and provides an API better suitable for seasonal day-series data, as well direct compatibility with Pandas' dataframes.",
