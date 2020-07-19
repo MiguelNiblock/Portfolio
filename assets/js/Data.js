@@ -48,9 +48,9 @@ const PORTFOLIO = {
         thumbnail: "images/dsensemble_screenshot.png",
         codeurl: "projects/?id=dsensemble"},
 
-        {title: "Luminol TS Detector- Anomaly Detection Module", 
-        descr: "(Luminol Time Series Detector) This Python library implements general-purpose algorithms for anomaly detection from the open source Luminol project, and provides an API better suitable for seasonal day-series data, as well direct compatibility with Pandas' dataframes.",
-        thumbnail: "images/luminoltsdetector_screenshot.png",
+        {title: "Luminol DS Detector- Anomaly Detection Module", 
+        descr: "(Luminol Day-Series Detector) This Python library implements general-purpose algorithms for anomaly detection from the open source Luminol project, and provides an API better suitable for seasonal day-series data, as well direct compatibility with Pandas' dataframes.",
+        thumbnail: "images/luminoldsdetector_screenshot.png",
         codeurl: "projects/under_construction.html"},
 
         {title: "Deep NLP- Predicting Ad Demand", 
