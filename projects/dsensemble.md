@@ -1,8 +1,8 @@
     <title>DSEnsemble | Forecasting Algorithm</title>
     <meta name="description" property="og:description" content="DSEnsemble is a forecasting algorithm for day series data with seasonality.">
-    <meta name="image" property="og:image" content="">
+    <meta name="image" property="og:image" content="../images/dsensemble_screenshot.png">
     <meta name="author" content="Miguel Niblock">
-    <meta name="title" property="og:title" content="">
+    <meta name="title" property="og:title" content="DSEnsemble">
 
 # DSEnsemble
 
