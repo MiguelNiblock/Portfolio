@@ -72,7 +72,7 @@ const PORTFOLIO = {
         {title: "COVID19 Impact on Casino Play", 
         descr: "By visualizing the changes in the volume of adjacent concurrent plays before-and-after COVID19, we can understand the impact of social distancing on business operations. More than just an analysis, this project implements proprietary techniques to process raw casino data to identify adjacent play.",
         thumbnail: "images/covidanalysis_screenshot.png",
-        codeurl: "projects/under_construction.html"},
+        codeurl: "projects/?id=covid19analysis"},
 
         {title: "Research Proposal- Mental Health in Tech", 
         descr: "Laying out an experimentation plan to find out if certain working conditions can reduce the loss in productivity caused by mental health issues.",
