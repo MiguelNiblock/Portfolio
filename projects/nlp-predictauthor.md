@@ -14,6 +14,7 @@ This procedure compares various techniques used in NLP such as Latent Semantic A
 
 - **[Notebook](https://miguelniblock.github.io/Natural-Language-Processing_Predict-the-Author/docs/index.html) with procedure-** This single-notebook Python procedure has its own TOC and includes headings like "Introduction to Dataset", "Exploratory Data Analysis", "Supervised Feature Generation", "Unsupervised Feature Generation", and "Choosing  Model".
     - Also as [PDF](https://miguelniblock.github.io/Natural-Language-Processing_Predict-the-Author/Deliverables/NLP-Predict_the_Author.pdf).
+- Code repository [home](https://github.com/MiguelNiblock/Natural-Language-Processing_Predict-the-Author).
 
 ## Context
 
