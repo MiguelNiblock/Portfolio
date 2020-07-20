@@ -15,9 +15,9 @@ A machine learning model to predict the demand of an online posting through natu
 ## Summary
 
 - **Presentation slides as [PDF](https://miguelniblock.github.io/Deep-NLP_Predicting-Ad-Demand/reports/Presentation/pdf-presentation.pdf)-** Provide an overview of the whole rationale for the project, as well as a summary of techniques employed and findings.
-- **Feature Engineering [notebooks and data](https://github.com/MiguelNiblock/Deep-NLP_Predicting-Ad-Demand/tree/master/notebooks/final_model/feature_engineering)-** This is the place in the repository that contains the data science wizardry to prepare the data for the machine learning final phase.
-- **Machine Learning Pipeline [notebook](https://miguelniblock.github.io/Deep-NLP_Predicting-Ad-Demand/docs/index.html)-** This is the final part of the procedure that consists of reading the data files prepared by the feature engineering phase, fitting various machine learning algorithms to it, and comparing scores.
-    - Also available in [PDF](https://miguelniblock.github.io/Deep-NLP_Predicting-Ad-Demand/reports/Final_Notebook_Export/pdf-final_pipeline.pdf)
+- **Feature Engineering [notebooks](https://github.com/MiguelNiblock/Deep-NLP_Predicting-Ad-Demand/tree/master/notebooks/final_model/feature_engineering)-** This is the place in the repository that contains the data science wizardry to prepare the data for the machine learning final phase.
+- **Machine Learning Pipeline [notebook](https://miguelniblock.github.io/Deep-NLP_Predicting-Ad-Demand/docs/index.html)-** This is the final part of the procedure that consists of reading the data files prepared by the feature engineering groups, then fitting various machine learning algorithms to it, and comparing scores. Also includes exploratory data visualizations.
+    - Available in [PDF](https://miguelniblock.github.io/Deep-NLP_Predicting-Ad-Demand/reports/Final_Notebook_Export/pdf-final_pipeline.pdf)
 - **Repository [home](https://github.com/MiguelNiblock/Deep-NLP_Predicting-Ad-Demand)-** All the project assets.
 
 ## Project Proposal
