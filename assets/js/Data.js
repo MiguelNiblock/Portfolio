@@ -77,7 +77,7 @@ const PORTFOLIO = {
         {title: "Research Proposal- Mental Health in Tech", 
         descr: "Laying out an experimentation plan to find out if certain working conditions can reduce the loss in productivity caused by mental health issues.",
         thumbnail: "images/mentalhealthtech_screenshot.png",
-        codeurl: "https://github.com/MiguelNiblock/Research-Proposal_Mental-Health-in-Tech"},
+        codeurl: "projects/?id=mental-health-tech"},
 
         {title: "Analytic Report- Youtube Trending Videos", 
         descr: "Exploration of Youtube data, accompanied by several analytical questions answered.",
