@@ -2,7 +2,7 @@
 
 Professional site for showcasing my computer science projects, career trajectory, skills and contact information.
 
-
+![screenshot](images/portfoliosite_screenshot.png)
 
 ## Technical Details
 - Site is an extensively modified spin of template Stellar from [HTML5 UP](https://html5up.net/), by [@ajlkn](https://twitter.com/ajlkn). See the original template [here](https://html5up.net/stellar).
