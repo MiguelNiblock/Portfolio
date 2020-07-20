@@ -3,7 +3,7 @@ const PORTFOLIO = {
         {title: "COVID19 Preparedness Quiz", 
         descr: "Single-page client-side app built on Javascript, HTML and CSS that implements a multiple-choice quiz meant to test your COVID preparedness, and give you answers to important issues on the subject.",
         thumbnail: "https://raw.githubusercontent.com/MiguelNiblock/COVID19_quiz/master/covid19quiz_screenshot.png",
-        codeurl: "https://github.com/MiguelNiblock/COVID19_quiz"},
+        codeurl: "projects/?id=covid19quiz"},
 
         {title: "Professional Portfolio Site", 
         descr: "An appealing site which auto-generates its HTML content with JQuery selectors from a JS object. Refers to the current site. ",
