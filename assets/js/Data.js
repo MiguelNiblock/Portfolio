@@ -8,7 +8,7 @@ const PORTFOLIO = {
         {title: "Professional Portfolio Site", 
         descr: "An appealing site which auto-generates its HTML content with JQuery selectors from a JS object. Refers to the current site. ",
         thumbnail: "images/portfoliosite_screenshot.png",
-        codeurl: "https://github.com/MiguelNiblock/miguelniblock.github.io"},
+        codeurl: "projects/?id=portfoliosite"},
     ],
     "HTTP API Development" : [
         {title: "Backend Microservices for Analytics Modules", 
