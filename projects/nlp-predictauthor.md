@@ -1,6 +1,6 @@
     <title>NLP- Predict the Author</title>
     <meta name="description" property="og:description" content="This procedure compares various techniques used in NLP such as Latent Semantic Analysis, Bag of Words and TFIDF; to predict the author for a given article.">
-    <meta name="image" property="og:image" content="../images/predictauthor_screenshot">
+    <meta name="image" property="og:image" content="../images/predictauthor_screenshot.png">
     <meta name="author" content="Miguel Niblock">
     <meta name="title" property="og:title" content="NLP- Predict the Author">
 

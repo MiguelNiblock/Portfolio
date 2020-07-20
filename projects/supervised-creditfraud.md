@@ -1,6 +1,6 @@
     <title>Supervised Learning- Credit Card Fraud</title>
     <meta name="description" property="og:description" content="Machine learning model that classifies fraudulent transactions in a dataset with class imbalance.">
-    <meta name="image" property="og:image" content="../images/creditfraud_screenshot2">
+    <meta name="image" property="og:image" content="../images/creditfraud_screenshot2.png">
     <meta name="author" content="Miguel Niblock">
     <meta name="title" property="og:title" content="Supervised Learning- Credit Card Fraud">
 
