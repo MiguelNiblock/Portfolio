@@ -229,7 +229,7 @@ input, select, textarea {
 	}
 
 	h4 {
-		margin: .8em;
+		/* margin: .8em; */
 		padding: 0 .6em;
 		font-size: 1.3em;
 	}
