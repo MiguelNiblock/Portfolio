@@ -56,7 +56,7 @@ const PORTFOLIO = {
         {title: "Deep NLP- Predicting Ad Demand", 
         descr: "Machine learning model with advanced NLP techniques to predict the Deal Probability of online classified ads.",
         thumbnail: "https://raw.githubusercontent.com/MiguelNiblock/Deep-NLP_Predicting-Ad-Demand/master/reports/Presentation/slides_png/img10.png",
-        codeurl: "https://github.com/MiguelNiblock/Deep-NLP_Predicting-Ad-Demand"},
+        codeurl: "projects/?id=nlp-addemand"},
 
         {title: "Supervised Learning- Credit Card Fraud", 
         descr: "Machine learning model that classifies fraudulent transactions in a dataset with class imbalance.",
