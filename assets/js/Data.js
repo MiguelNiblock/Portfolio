@@ -82,7 +82,7 @@ const PORTFOLIO = {
         {title: "Analytic Report- Youtube Trending Videos", 
         descr: "Exploration of Youtube data, accompanied by several analytical questions answered.",
         thumbnail: "images/youtubereport_screenshot.png",
-        codeurl: "https://github.com/MiguelNiblock/Analytic-Report_Youtube-Trending-Videos/blob/master/IPYNB.Analytic-Report_Youtube-Trending-Videos.ipynb"},
+        codeurl: "projects/?id=youtube-trending-vids"},
     ],
     "General": [
         {title: "Auto .Gitignore", 
