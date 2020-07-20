@@ -9,7 +9,7 @@ Single-page client-side app built on Javascript, HTML and CSS that implements a 
 
 <span class="image main"><img src="https://raw.githubusercontent.com/MiguelNiblock/COVID19_quiz/master/covid19quiz_screenshot.png" alt="banner" /></span>
 
-### Description
+### Summary
 
 - Access it live at: [https://miguelniblock.github.io/COVID19_quiz/](https://miguelniblock.github.io/COVID19_quiz/)
 - Code repository: [https://github.com/MiguelNiblock/COVID19_quiz](https://github.com/MiguelNiblock/COVID19_quiz)
@@ -22,3 +22,18 @@ Single-page client-side app built on Javascript, HTML and CSS that implements a 
 - Animations & transitions use custom CSS. No libraries like bootstrap.
 - HTML content is injected through JQuery on('click') functions.
 - User receives feedback based on their answer.
+
+### Credits
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+#### Icon sets Ideas
+
+- [https://www.flaticon.com/search?word=virus](https://www.flaticon.com/search?word=virus)
+- [https://www.flaticon.com/packs/hygiene-and-disinfection-4](https://www.flaticon.com/packs/hygiene-and-disinfection-4)
+- [https://www.flaticon.com/packs/virus-outbreak-1](https://www.flaticon.com/packs/virus-outbreak-1)
+
+#### Background image: 
+
+[https://www.politico.com/news/magazine/2020/03/19/coronavirus-effect-economy-life-society-analysis-covid-135579](https://www.politico.com/news/magazine/2020/03/19/coronavirus-effect-economy-life-society-analysis-covid-135579)
+
