@@ -40,7 +40,7 @@ const PORTFOLIO = {
         {title: "Space Cat-Dog Layout", 
         descr: "As you zoom in and out, this layout will maintain the placement of a funny cat and a dog at opposite corners of a content area.",
         thumbnail: "images/spacecatdog_screenshot.png",
-        codeurl: "https://github.com/MiguelNiblock/WebDev/tree/master/CSS-Layouts/Project-Space-Cat-Dog"}	
+        codeurl: "https://github.com/MiguelNiblock/WebDev/tree/master/CSS-Layouts/Project-Space-Cat-Dog/attempt"}	
     ],
 	"Data Science" : [
 		{title: "Day Series Ensemble- Python Forecasting Module", 
