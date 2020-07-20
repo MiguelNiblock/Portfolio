@@ -35,7 +35,9 @@ function renderProject(){
         $('head').append(head);
 
         // convert the md content into html
-        converter = new showdown.Converter();
+        converter = new showdown.Converter({
+            tables: true,tablesHeaderId: true, ghCodeBlocks: true
+        });
         var html = converter.makeHtml(content);
 
         // get the h1 tag from the html
