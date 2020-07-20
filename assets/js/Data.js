@@ -61,7 +61,7 @@ const PORTFOLIO = {
         {title: "Supervised Learning- Credit Card Fraud", 
         descr: "Machine learning model that classifies fraudulent transactions in a dataset with class imbalance.",
         thumbnail: "images/creditfraud_screenshot.png",
-        codeurl: "https://github.com/MiguelNiblock/Supervised-Learning_Credit-Card-Fraud"},
+        codeurl: "projects/?id=supervised-creditfraud"},
 
         {title: "Natural Language Processing- Predict the Author", 
         descr: "This procedure compares various common techniques used in NLP such as Latent Semantic Analysis, Bag of Words, TFIDF... to predict the author for a given article, based on statistical similarities found in text data.",
