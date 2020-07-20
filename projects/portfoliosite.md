@@ -9,7 +9,10 @@ Professional site for showcasing my computer science projects, career trajectory
 
 <span class="image main"><img src="../images/portfoliosite_screenshot.png" alt="banner" /></span>
 
+## Summary
 
+- See it live at: [miguelniblock.github.io](https://miguelniblock.github.io)
+- Code repository: [github.com/MiguelNiblock/miguelniblock.github.io](https://github.com/MiguelNiblock/miguelniblock.github.io)
 
 ## Technical Details
 
