@@ -2477,6 +2477,12 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 		/* padding-left: 1em; */
 	}
+	ul ul {
+		margin: 0
+	}
+	ul ul li {
+		list-style: circle;
+	}
 
 	#content.main ul {
 		padding-left: 1em;
