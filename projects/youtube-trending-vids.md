@@ -14,4 +14,6 @@ Short and sweet analytic report on a dataset that contains Youtube's trending vi
 
 
 
-- See a static render of the [notebook](https://miguelniblock.github.io/Analytic-Report_Youtube-Trending-Videos/Deliverables/index.html), or a [PDF](https://miguelniblock.github.io/Analytic-Report_Youtube-Trending-Videos/Deliverables/Analytic-Report_Youtube-Trending-Videos.pdf).
+- See a static render of the [notebook](https://miguelniblock.github.io/Analytic-Report_Youtube-Trending-Videos/Deliverables/index.html), 
+    - or in [PDF](https://miguelniblock.github.io/Analytic-Report_Youtube-Trending-Videos/Deliverables/Analytic-Report_Youtube-Trending-Videos.pdf).
+- Code repository [home](https://github.com/MiguelNiblock/Analytic-Report_Youtube-Trending-Videos).
