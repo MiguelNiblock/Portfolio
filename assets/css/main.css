@@ -2481,6 +2481,9 @@ input, select, textarea {
 	#content.main ul {
 		padding-left: 1em;
 	}
+	#content.main a{
+		text-decoration: underline;
+	}
 
 		ul li {
 			padding-left: 0.5em;
