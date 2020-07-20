@@ -1,5 +1,5 @@
 const PORTFOLIO = {
-	"Web App Development" : [
+	"Client-Side Web Development" : [
         {title: "COVID19 Preparedness Quiz", 
         descr: "Single-page client-side app built on Javascript, HTML and CSS that implements a multiple-choice quiz meant to test your COVID preparedness, and give you answers to important issues on the subject.",
         thumbnail: "https://raw.githubusercontent.com/MiguelNiblock/COVID19_quiz/master/covid19quiz_screenshot.png",
