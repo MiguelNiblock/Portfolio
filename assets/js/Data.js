@@ -64,9 +64,9 @@ const PORTFOLIO = {
         codeurl: "projects/?id=supervised-creditfraud"},
 
         {title: "Natural Language Processing- Predict the Author", 
-        descr: "This procedure compares various common techniques used in NLP such as Latent Semantic Analysis, Bag of Words, TFIDF... to predict the author for a given article, based on statistical similarities found in text data.",
+        descr: "This procedure compares various techniques used in NLP such as Latent Semantic Analysis, Bag of Words and TFIDF; to predict the author for a given article.",
         thumbnail: "images/predictauthor_screenshot.png",
-        codeurl: "https://github.com/MiguelNiblock/Natural-Language-Processing_Predict-the-Author"},
+        codeurl: "projects/?id=nlp-predictauthor"},
     ],
     "Data Analysis": [
         {title: "COVID19 Impact on Casino Play", 
