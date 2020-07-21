@@ -36,7 +36,7 @@ function renderProject(){
 
         // convert the md content into html
         converter = new showdown.Converter();
-        var html = converter.makeHtml(content);
+        let html = converter.makeHtml(content);
 
         // get the h1 tag from the html
         const h1Re = /<h1[\s\S]*<\/h1>/g
@@ -54,25 +54,25 @@ function renderProject(){
         $('header').html(h1Tag+headerP);
 
         // remove the h1Tag and headerP from html string. so we're left with only the main content
-        html = html.replace(h1Tag,"").replace(headerP,"");
+        html = html.replace(h1Tag,"").replace(headerP,"").trim();
+        console.log("html type: "+typeof(html));
+        console.log("html: \n"+html);
 
         // remove <p>'s surrounding <span>'s
         const parspanRe = /<p><span.*<\/span><\/p>/g;
         const removePar = function(string){return string.replace('<p>','').replace('</p>','')};
 
-        console.log(html);
-        console.log(typeof(html));
-        try {html = html.replaceAll(parspanRe,removePar)} 
+        try {html = html.replace(parspanRe,removePar)} 
         catch (e) {
             console.log('error replacing parSpans. '+e);
-            console.log(html);
-            console.log(typeof(html));
     };
 
         // remove <p>'s inside <blockquotes>
         const quoteparRe = /<blockquote>[\s]*<p>.*<\/p>[\s]*<\/blockquote>/g;
-        try {html = html.replaceAll(quoteparRe,removePar)}
-        catch (e) {console.log('error replacing quotePars. '+e);}
+        try {html = html.replace(quoteparRe,removePar)}
+        catch (e) {
+            console.log('error replacing quotePars. '+e);
+        }
 
         // console.log(html);
         $('section#content').html(html);
