@@ -56,7 +56,7 @@ function renderProject(){
         // remove the h1Tag and headerP from html string. so we're left with only the main content
         html = html.replace(h1Tag,"").replace(headerP,"");
 
-        // console.log(html);
+        console.log(html);
         // remove <p>'s surrounding <span>'s
         var parspanRe = /<p><span.*<\/span><\/p>/g
         var removePar = function(string){return string.replace('<p>','').replace('</p>','')};
@@ -64,6 +64,7 @@ function renderProject(){
         catch (e) {
             console.log('error replacing parSpans'+e)
             console.log(html)
+            console.log(typeof(html))
     }
 
         // remove <p>'s inside <blockquotes>
