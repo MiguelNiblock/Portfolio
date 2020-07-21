@@ -54,22 +54,26 @@ function renderProject(){
         $('header').html(h1Tag+headerP);
 
         // remove the h1Tag and headerP from html string. so we're left with only the main content
-        html = html.replace(h1Tag,"").replace(headerP,"")
+        html = html.replace(h1Tag,"").replace(headerP,"");
 
+        // console.log(html);
         // remove <p>'s surrounding <span>'s
-        var parspanRe = /<p><span.*<\/p>/g
-        var removePar = function(string){return string.replace('<p>','').replace('</p>','')}
+        var parspanRe = /<p><span.*<\/span><\/p>/g
+        var removePar = function(string){return string.replace('<p>','').replace('</p>','')};
         try {html = html.replaceAll(parspanRe,removePar)} 
-        catch (e) {console.log('error replacing parSpans')}
+        catch (e) {
+            console.log('error replacing parSpans')
+            console.log(html)
+    }
 
         // remove <p>'s inside <blockquotes>
         var quoteparRe = /<blockquote>[\s]*<p>.*<\/p>[\s]*<\/blockquote>/g
         try {html = html.replaceAll(quoteparRe,removePar)}
         catch (e) {console.log('error replacing quotePars')}
 
-        console.log(html);
+        // console.log(html);
         $('section#content').html(html);
-    },'text')
+    },'text');
     
 };
 
