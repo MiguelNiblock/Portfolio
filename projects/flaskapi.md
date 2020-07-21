@@ -19,8 +19,9 @@ At Gaming Analytics, we're always looking for better ways to provide valuable da
 
 Three related submodules were served by the Flask API in total. Although this article is mostly about the Flask API, I will briefly discuss the functionality of these modules and provide an example of an API call; All while maintaining confidentiality and avoid revealing any trade secrets ;). The following is a static render of a Jupyter Notebook where I send a get request to my local Flask server, and show the response as a Pandas' DataFrame.
 
-<iframe class="jupyter" src="Request_SingleRankMetrics.html" width="100%" height="400" style="border:1px solid black;">
+<iframe class="jupyter" src="Request_SingleRankMetrics-styled.html" width="100%" height="400" style="border:1px solid black;">
             </iframe>
+
 
 ### Breakdown
 

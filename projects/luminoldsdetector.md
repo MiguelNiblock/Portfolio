@@ -34,8 +34,9 @@ The simplicity and performance of this algorithm are outstanding. Its functional
 
 This notebook is a basic demo of the LuminolDSDetector module in practice. Here we get some data, import the module, explain some of the arguments, and show the output.
 
-<iframe class="jupyter" src="LuminolDS_testing.html" width="100%" height="400" style="border:1px solid black;">
+<iframe class="jupyter" src="LuminolDS_testing-styled.html" width="100%" height="400" style="border:1px solid black;">
             </iframe>
+
 
 The heading "Init Params" contains the parameters we may pass to the class instance. The value after the "=" is the default value for the parameter, if not specified.
 
@@ -50,5 +51,5 @@ As an example of how useful this module can be in a real world application, let 
 
 In this example, we pass our DataFrame "ts_inter" (time-series interpolated) through LuminolDSDetector. We then set the anomaly score threshold to 3 and identify our anomalies. We then configure a plot by generating scaled values based on the severity of each anomaly, to later use as visual indicators in the plot. After confirming that our plot satisfactorily flags anomalies, we remove them by their index position.
 
-<iframe class="jupyter" src="Drop_outliers.html" width="100%" height="400" style="border:1px solid black;">
+<iframe class="jupyter" src="Drop_outliers-styled.html" width="100%" height="400" style="border:1px solid black;">
             </iframe>

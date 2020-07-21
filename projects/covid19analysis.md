@@ -28,5 +28,5 @@ Ultimately, this procedure counted the number of neighboring concurrent sessions
 
 > These visualizations are not the main source code. They're simply an Exploratory Data Analysis of the data produced by the main procedure described above. The insights provided by these plots is anonymous.
 
-<iframe class="jupyter" src="covid19analysis_plots.html" width="100%" height="400" style="border:1px solid black;">
+<iframe class="jupyter" src="covid19analysis_plots-styled.html" width="100%" height="400" style="border:1px solid black;">
             </iframe>

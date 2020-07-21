@@ -24,5 +24,5 @@ If we take a given text as training data, and take a group of author names as pr
 
 The table below shows the final results of my project. From top to bottom, are the best-performing algorithms as well as an indicator for which technique was used for feature-engineering: **BOW**(*Bag-of-Words*) VS **LSA**(*Latent Semantic Analysis*)	
 
-<iframe class="jupyter" src="NLP-Predict_the_Author.html" width="100%" height="400" style="border:1px solid black;">
+<iframe class="jupyter" src="NLP-Predict_the_Author-styled.html" width="100%" height="400" style="border:1px solid black;">
             </iframe>
