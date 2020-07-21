@@ -36,19 +36,19 @@ function renderProject(){
 
         // convert the md content into html
         converter = new showdown.Converter();
-        var html = converter.makeHtml(content);
+        const html = converter.makeHtml(content);
 
         // get the h1 tag from the html
-        var h1Re = /<h1[\s\S]*<\/h1>/g
-        var h1Tag = html.match(h1Re)[0];
+        const h1Re = /<h1[\s\S]*<\/h1>/g
+        const h1Tag = html.match(h1Re)[0];
         // console.log(h1Tag)
         
         // get the <p> after the h1
-        var h1pRe = /<\/h1>\s*<p>.*<\/p>/g
-        var h1p = html.match(h1pRe)[0];
+        const h1pRe = /<\/h1>\s*<p>.*<\/p>/g
+        const h1p = html.match(h1pRe)[0];
         // console.log(h1p)
-        var pRe = /<p>.*<\/p>/g
-        var headerP = h1p.match(pRe);
+        const pRe = /<p>.*<\/p>/g
+        const headerP = h1p.match(pRe);
 
         // add h1 and p into the header innerHTML
         $('header').html(h1Tag+headerP);
@@ -57,8 +57,8 @@ function renderProject(){
         html = html.replace(h1Tag,"").replace(headerP,"");
 
         // remove <p>'s surrounding <span>'s
-        var parspanRe = /<p><span.*<\/span><\/p>/g;
-        var removePar = function(string){return string.replace('<p>','').replace('</p>','')};
+        const parspanRe = /<p><span.*<\/span><\/p>/g;
+        const removePar = function(string){return string.replace('<p>','').replace('</p>','')};
 
         console.log(html);
         console.log(typeof(html));
