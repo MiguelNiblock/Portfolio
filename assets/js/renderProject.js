@@ -60,7 +60,7 @@ function renderProject(){
         // remove <p>'s surrounding <span>'s
         var parspanRe = /<p><span.*<\/span><\/p>/g
         var removePar = function(string){return string.replace('<p>','').replace('</p>','')};
-        try {html = html.replaceAll(parspanRe,removePar)} 
+        try {html = html.toString().replaceAll(parspanRe,removePar)} 
         catch (e) {
             console.log('error replacing parSpans'+e)
             console.log(html)
