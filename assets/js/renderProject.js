@@ -58,19 +58,19 @@ function renderProject(){
 
         console.log(html);
         // remove <p>'s surrounding <span>'s
-        var parspanRe = /<p><span.*<\/span><\/p>/g
+        var parspanRe = /<p><span.*<\/span><\/p>/g;
         var removePar = function(string){return string.replace('<p>','').replace('</p>','')};
         try {html = html.toString().replaceAll(parspanRe,removePar)} 
         catch (e) {
-            console.log('error replacing parSpans'+e)
-            console.log(html)
-            console.log(typeof(html))
-    }
+            console.log('error replacing parSpans'+e);
+            console.log(html);
+            console.log(typeof(html));
+    };
 
         // remove <p>'s inside <blockquotes>
-        var quoteparRe = /<blockquote>[\s]*<p>.*<\/p>[\s]*<\/blockquote>/g
+        var quoteparRe = /<blockquote>[\s]*<p>.*<\/p>[\s]*<\/blockquote>/g;
         try {html = html.replaceAll(quoteparRe,removePar)}
-        catch (e) {console.log('error replacing quotePars'+e)}
+        catch (e) {console.log('error replacing quotePars'+e);}
 
         // console.log(html);
         $('section#content').html(html);
