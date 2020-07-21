@@ -55,8 +55,8 @@ function renderProject(){
 
         // remove the h1Tag and headerP from html string. so we're left with only the main content
         html = html.replace(h1Tag,"").replace(headerP,"").trim();
-        console.log("html type: "+typeof(html));
-        console.log("html: \n"+html);
+        // console.log("html type: "+typeof(html));
+        // console.log("html: \n"+html);
 
         // remove <p>'s surrounding <span>'s
         const parspanRe = /<p><span.*<\/span><\/p>/g;
