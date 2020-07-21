@@ -70,7 +70,7 @@ function renderProject(){
     };
 
         // remove <p>'s inside <blockquotes>
-        var quoteparRe = /<blockquote>[\s]*<p>.*<\/p>[\s]*<\/blockquote>/g;
+        const quoteparRe = /<blockquote>[\s]*<p>.*<\/p>[\s]*<\/blockquote>/g;
         try {html = html.replaceAll(quoteparRe,removePar)}
         catch (e) {console.log('error replacing quotePars. '+e);}
 
