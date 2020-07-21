@@ -41,7 +41,7 @@ function generatePortfolioString(dataObject){
 function renderPortfolio(){
     console.log('renderPortfolio ran');
     const portfolioItemsString = generatePortfolioString(PORTFOLIO);
-    console.log(portfolioItemsString);
+    // console.log(portfolioItemsString);
     $('#portfolio').html(portfolioItemsString);
 };
 //////////////////////////////////////////
@@ -103,7 +103,7 @@ function generateCareerSectionString(dataObject){
 function renderCareer(){
     console.log('renderCareer ran')
     const careerSectionString = generateCareerSectionString(CAREER);
-    console.log(careerSectionString);
+    // console.log(careerSectionString);
     $('#career .spotlight .content').html(careerSectionString);
 }
 
