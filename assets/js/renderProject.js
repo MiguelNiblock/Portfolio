@@ -36,7 +36,7 @@ function renderProject(){
 
         // convert the md content into html
         converter = new showdown.Converter();
-        let html = converter.makeHtml(content);
+        var html = converter.makeHtml(content);
 
         // get the h1 tag from the html
         const h1Re = /<h1[\s\S]*<\/h1>/g
