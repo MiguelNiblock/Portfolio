@@ -38,7 +38,7 @@ Below is an embedded view of the source code from Glitch.com, where it's current
 If you open the live app URL: [https://miguelniblock-blog-api.glitch.me/blog-posts](https://miguelniblock-blog-api.glitch.me/blog-posts), your browser will receive a response with a JSON file that contains all the blog posts in the storage model. In this case, it only has some sample content.
 
 <iframe
-    src="http://miguelniblock-blog-api.glitch.me/blog-posts"
+    src="https://miguelniblock-blog-api.glitch.me/blog-posts"
     title="miguelniblock-blog-api on Glitch"
     style="height: 100%; width: 100%; border: 0; background-color: white">
   </iframe>
