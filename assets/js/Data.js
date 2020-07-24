@@ -24,7 +24,7 @@ const PORTFOLIO = {
         {title: "To-Do app- Ruby on Rails", 
         descr: "MVC (Model View Controller) app deployed on Heroku, that uses a postgreSQL database for storing todos. To-dos are persistent, so you may visit the live page and add/edit/delete some if you wish!.",
         thumbnail: "images/todoruby_screenshot.png",
-        codeurl: "https://github.com/MiguelNiblock/ruby_todo_app"},
+        codeurl: "projects/?id=ruby-todo-app"},
     ],
     "Web Design" : [
         {title: "Greg's List- Results Page", 
