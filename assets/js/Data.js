@@ -19,7 +19,7 @@ const PORTFOLIO = {
         {title: "Blog API- Node.JS", 
         descr: "CRUD API for blogging platform. Built from scratch with `npm` and Express. Handles GET and POST requests to `/blog-posts`. DELETE and PUT requests go to `/blog-posts/:id`. ",
         thumbnail: "images/blogapi_screenshot.png",
-        codeurl: "https://github.com/MiguelNiblock/ServerDev/tree/master/CRUD/blog_app"},
+        codeurl: "projects/?id=node-blog-api"},
 
         {title: "To-Do app- Ruby on Rails", 
         descr: "MVC (Model View Controller) app deployed on Heroku, that uses a postgreSQL database for storing todos. To-dos are persistent, so you may visit the live page and add/edit/delete some if you wish!.",
