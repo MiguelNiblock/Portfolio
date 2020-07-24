@@ -13,8 +13,8 @@ CRUD API for blogging platform. Built from scratch with `npm` and Express. Handl
 ## Summary
 
 - **Code repository [home](https://github.com/MiguelNiblock/node-blog-api)-** Github repo for the project.
-- **Interactive view on [Glitch](https://glitch.com/edit/#!/miguelniblock-blog-api)-** Here you can see and edit the code in a simple web IDE. 
-- **Live [app](https://miguelniblock-blog-api.glitch.me/blog-posts)-** Glitch allows you to deploy node apps and provides you with a URL of your choice. This would be our main endpoint.
+- **Live code on [Glitch](https://glitch.com/edit/#!/miguelniblock-blog-api)-** Here you can see and edit the code in a simple web IDE. 
+- **Live [endpoint](https://miguelniblock-blog-api.glitch.me/blog-posts)-** Glitch allows you to deploy node apps and provides you with a URL of your choice. This would be our main endpoint for sending HTTP requests to.
 
 ## Details
 
