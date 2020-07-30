@@ -113,7 +113,7 @@ const CAREER = {
             • Developed a procedure to generate analytics reports to casino customers based on the results of this algorithm.<br>
             • Reports include data visualizations for business analysis.<br>
             `,
-        logourl: "images/ga_logo.png"},
+        logourl: "images/ga_logo.jpeg"},
 
         {title: "Data Scientist Intern",
         company_name: "Gaming Analytics AI",
