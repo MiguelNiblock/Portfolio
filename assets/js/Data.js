@@ -100,7 +100,7 @@ const CAREER = {
         dates: "Mar 2020 - Present",
         description: `
             • 4.0 GPA (first quarter)<br>
-            • <ul>Classes completed:</ul> Operating Systems Design, Computer Networks, Algorithm Analysis.<br>
+            • <u>Classes completed:</u> Operating Systems Design, Computer Networks, Algorithm Analysis.<br>
             `,
         logourl: "images/ctu_logo.png"},
 
@@ -172,7 +172,7 @@ const CAREER = {
         dates: "Mar 2020 - Present",
         description: `
         • 4.0 GPA (first quarter)<br>
-        • <ul>Classes completed:</ul> Operating Systems Design, Computer Networks, Algorithm Analysis.<br>
+        • <u>Classes completed:</u> Operating Systems Design, Computer Networks, Algorithm Analysis.<br>
             `,
         logourl: "images/ctu_logo.png"},
 
