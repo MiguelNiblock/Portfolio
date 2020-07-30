@@ -100,12 +100,23 @@ const CAREER = {
         dates: "Mar 2020 - Present",
         description: `
             • 4.0 GPA (first quarter)<br>
-            • Operating Systems, Networks, Algorithms, Databases.
+            • <ul>Classes completed:</ul> Operating Systems Design, Computer Networks, Algorithm Analysis.<br>
             `,
         logourl: "images/ctu_logo.png"},
 
+        {title: "Data Scientist Consultant",
+        company_name: "Gaming Analytics AI",
+        contract: "Part Time",
+        dates: "Mar 2020 - May 2020",
+        description: `
+            • Designed and implemented an algorithm to identify the impact of COVID19 social distancing measures on casino play.<br>
+            • Developed a procedure to generate analytics reports to casino customers based on the results of this algorithm.<br>
+            • Reports include data visualizations for business analysis.<br>
+            `,
+        logourl: "images/ga_logo.png"},
+
         {title: "Data Scientist Intern",
-        company_name: "Gaming Analytics, Inc",
+        company_name: "Gaming Analytics AI",
         contract: "Full-Time",
         dates: "Aug 2019 - Mar 2020",
         description: `
@@ -113,8 +124,8 @@ const CAREER = {
             &emsp; ◦ The ensemble utilizes Holt Winters & Prophet algorithms.<br>
             • Developed an Anomaly detection module for casino analytics platform.<br>
             • Developed a backend API for various machine learning modules.<br>
-            • Developed modules for multivariate covariance analysis of casino metrics:<br>
-            &emsp; ◦ Automatically determines the root cause of anomalies found in time-series data from casino machine logs.<br>
+            • Developed modules for root cause analysis of anomalies in casino metrics.<br>
+            &emsp; ◦ Automatically determines the source of anomalies found in time-series data from casino machine logs, by using multivariate covariance analysis techniques.<br>
             `,
         logourl: "images/ga_logo.jpeg"},
 
@@ -125,10 +136,9 @@ const CAREER = {
         description: `
         • Developed Machine Learning models under the mentorship of an industry professional.<br>
         • Produced Jupyter Notebooks of high quality Python code.<br>
-        • Presented project and outcomes to a live audience in a product-focused manner, effectively conveying highly-technical information in plain language.<br>
-        • Wrote complex SQL queries, involving new 'Window' functions.<br>
-        • Set up a PostreSQL database in Linux.<br>
-        • Skillfully manipulated large and noisy datasets in preparation for modeling.<br>
+        • Presented projects to a live audience in a product-focused manner, effectively conveying highly-technical information in plain language.<br>
+        • Worked with PostgreSQL databases in Linux and advanced SQL queries.<br>
+        • Data manipulation and cleaning of large, noisy datasets in preparation for machine learning modeling.<br>
             `,
         logourl: "images/thinkful_logo.png"},
 
@@ -137,10 +147,9 @@ const CAREER = {
         contract: "Full-Time",
         dates: "Dec 2017 - June 2018",
         description: `
-        • Designed and deployed a Digital Time Card automated system; this eliminated manual errors and decreased turnaround times by 300% in payroll processing.<br>
-        • Integrated the reporting of daily labor costs (“Hot Sheets”) into above-mentioned system, reducing Hot Sheets processing time by 50% and achieving data consistency across reports.<br>
-        • Maintained construction budgeting system by routinely updating labor rates for all necessary labor unions, successfully preventing errors when scaling labor sources.<br>
-        • Played key role in managing the department’s relationship with key figures inside the company, succeeding in extending the team’s contract.<br>
+        • Developed and deployed a Digital Time Card automated system for payroll processing in Microsoft Excel; this decreased turnaround times in half, by streamlining an otherwise repetitive process and eliminating many commonly-occurring human errors.<br>
+        • Integrated the reporting of daily labor costs (“Hot Sheets”) into above-mentioned system, thereby reducing the processing time of Hot Sheets in half and achieving automatic data consistency across reports.<br>
+        • Maintained the budgeting system for construction department by routinely updating labor union rates, and thus preventing costly payroll errors when scaling labor sources..<br>
             `,
         logourl: "images/viacom_logo.png"},
 
@@ -157,13 +166,13 @@ const CAREER = {
     ],
 
     "Education" : [
-        {title: "Master Degree in Computer Science- In Progress",
+        {title: "Master's Degree in Computer Science- Concentration: Software Engineering (In Progress)",
         company_name: "Colorado Tech University",
         contract: "Full-Time",
         dates: "Mar 2020 - Present",
         description: `
-            • 4.0 GPA (First quarter)<br>
-            • Operating Systems, Networks, Algorithms, Databases.
+        • 4.0 GPA (first quarter)<br>
+        • <ul>Classes completed:</ul> Operating Systems Design, Computer Networks, Algorithm Analysis.<br>
             `,
         logourl: "images/ctu_logo.png"},
 
