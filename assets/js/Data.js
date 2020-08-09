@@ -26,22 +26,6 @@ const PORTFOLIO = {
         thumbnail: "images/todoruby_screenshot.png",
         codeurl: "projects/?id=ruby-todo-app"},
     ],
-    "Web Design" : [
-        {title: "Greg's List- Results Page", 
-        descr: "Templateless HTML/CSS design which resembles the CraigsList look. Inclues a header with navbar, search area, pagination buttons/section, and results shown as rows.",
-        thumbnail: "images/gregslist_screenshot.png",
-        codeurl: "https://github.com/MiguelNiblock/WebDev/tree/master/CSS-Layouts/Project-GregsList"},
-
-        {title: "Simple Sign-Up Page", 
-        descr: "A basic sign-up page for a fictitious company, using only HTML/CSS, with no templates.",
-        thumbnail: "images/signuppage_screenshot.png",
-        codeurl: "https://github.com/MiguelNiblock/WebDev/tree/master/HTML-Forms/Project-SignUp-Page"},
-
-        {title: "Space Cat-Dog Layout", 
-        descr: "As you zoom in and out, this layout will maintain the placement of a funny cat and a dog at opposite corners of a content area.",
-        thumbnail: "images/spacecatdog_screenshot.png",
-        codeurl: "https://github.com/MiguelNiblock/WebDev/tree/master/CSS-Layouts/Project-Space-Cat-Dog/attempt"}	
-    ],
 	"Data Science" : [
 		{title: "Day Series Ensemble- Python Forecasting Module", 
         descr: "DSEnsemble can take day-series data and make forecasts that out-performed Facebook's Prophet algorithm in our tests at Gaming Analytics, Inc. It implements an ensemble of intelligently-randomized Holt Winter models, merges their results with Exponentially-Weighted-Moving-Averages, and passes them to Prophet as an additional_regressor.",
@@ -89,7 +73,23 @@ const PORTFOLIO = {
         descr: 'Simple module written in pure Python that automotically generates ".gitignore" files based on a recursive folder search for a predefined marker filename. For example: "include.txt" Helpful if you have a large project and hate writing overly complex ".gitignore" files.',
         thumbnail: "images/autogitignore_screenshot.png",
         codeurl: "https://github.com/MiguelNiblock/AutoGitignore"},
-    ]
+    ],
+    "HTML/ CSS" : [
+        {title: "Greg's List- Results Page", 
+        descr: "Templateless HTML/CSS design which resembles the CraigsList look. Inclues a header with navbar, search area, pagination buttons/section, and results shown as rows.",
+        thumbnail: "images/gregslist_screenshot.png",
+        codeurl: "https://github.com/MiguelNiblock/WebDev/tree/master/CSS-Layouts/Project-GregsList"},
+
+        {title: "Simple Sign-Up Page", 
+        descr: "A basic sign-up page for a fictitious company, using only HTML/CSS, with no templates.",
+        thumbnail: "images/signuppage_screenshot.png",
+        codeurl: "https://github.com/MiguelNiblock/WebDev/tree/master/HTML-Forms/Project-SignUp-Page"},
+
+        {title: "Space Cat-Dog Layout", 
+        descr: "As you zoom in and out, this layout will maintain the placement of a funny cat and a dog at opposite corners of a content area.",
+        thumbnail: "images/spacecatdog_screenshot.png",
+        codeurl: "https://github.com/MiguelNiblock/WebDev/tree/master/CSS-Layouts/Project-Space-Cat-Dog/attempt"}	
+    ],
 };
 
 const CAREER = {
@@ -99,7 +99,7 @@ const CAREER = {
         contract: "Full-Time",
         dates: "Mar 2020 - Present",
         description: `
-            • 4.0 GPA (first quarter)<br>
+            • 4.0 GPA<br>
             • <u>Classes completed:</u> Operating Systems Design, Computer Networks, Algorithm Analysis.<br>
             `,
         logourl: "images/ctu_logo.png"},
@@ -171,7 +171,7 @@ const CAREER = {
         contract: "Full-Time",
         dates: "Mar 2020 - Present",
         description: `
-        • 4.0 GPA (first quarter)<br>
+        • 4.0 GPA<br>
         • <u>Classes completed:</u> Operating Systems Design, Computer Networks, Algorithm Analysis.<br>
             `,
         logourl: "images/ctu_logo.png"},
