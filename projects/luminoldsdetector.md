@@ -24,15 +24,11 @@ One sensible way to perform anomaly detection in time series data is with the ai
 
 I also became aware of the novel use of models based on neural-networks, for anomaly detection on time-series; For example, LSTMs and Auto Encoders. These methods have the advantage to be able to identify anomalies in multivariate time series data. However, our use for this detector was limited to univariate anomalies, so these solutions seemed overkill. Also we were reluctant to employ such complex solutions at first.
 
-### Luminol Algorithm
+### Conclusion
 
-Luminol was one of the few solutions I found which was publicly available as an open source library and actually implemented an unconventional algorithm for time series anomaly detection. Its algorithm is called Bitmap-SAX. It works by quantizing a time series using the SAX method (Symbolic Aggregate Approximation), and then converts it into a bitmap using Chaos Game Representation (CGR). It lastly slides two search windows along the bitmaps, one to look forward, and one to look backward. The size of the window is set by the user, and should ideally represent a seasonal period. The algorithm will compare the value in the lower window with the one in the upper window. The larger the difference, the greater the anomaly score. 
+After experimenting with various algorithms I considered appropriate, our brand new tool started to take shape. For specific details, please message me privately.
 
-The simplicity and performance of this algorithm are outstanding. Its functionality means that it's not necessary to do the conventional practice of training/ fitting a model, and then asking it to predict on new unseen data. This works by simply running on the data you provide, which means it could be categorized as unsupervised learning. According to its documentation, the time complexity is linear because at each "step" of the sliding window, exactly one data point enters and exits the comparison. So its runtime scales linearly with the size of the input.
-
-### API Details
-
-This notebook is a basic demo of the LuminolDSDetector module in practice. Here we get some data, import the module, explain some of the arguments, and show the output.
+This notebook is a basic demo of the resulting module in practice. Here we get some data, import the module, explain some of the arguments, and show the output.
 
 <iframe class="jupyter" src="LuminolDS_testing-styled.html" width="100%" height="400" style="border:1px solid black;">
             </iframe>
@@ -49,7 +45,7 @@ The heading "Init Params" contains the parameters we may pass to the class insta
 
 As an example of how useful this module can be in a real world application, let us consider the following notebook. These cells were extracted as a section from another module, which requires outlier removal as part of its internal functionality. 
 
-In this example, we pass our DataFrame "ts_inter" (time-series interpolated) through LuminolDSDetector. We then set the anomaly score threshold to 3 and identify our anomalies. We then configure a plot by generating scaled values based on the severity of each anomaly, to later use as visual indicators in the plot. After confirming that our plot satisfactorily flags anomalies, we remove them by their index position.
+In this example, we pass our DataFrame "ts_inter" (time-series interpolated) through the module. We then set the anomaly score threshold to 3 and identify our anomalies. We then configure a plot by generating scaled values based on the severity of each anomaly, to later use as visual indicators in the plot. After confirming that our plot satisfactorily flags anomalies, we remove them by their index position.
 
 <iframe class="jupyter" src="Drop_outliers-styled.html" width="100%" height="400" style="border:1px solid black;">
             </iframe>
